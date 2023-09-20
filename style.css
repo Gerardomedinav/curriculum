@@ -1,0 +1,73 @@
+#imagen_fondo {
+    background-image: url("./img/banner\ programacion.jpg");
+    opacity: 0.8;
+}
+.title, h2{
+    
+    
+    text-align: center;
+   
+    color: #fff; /* Color del texto */
+    -webkit-text-stroke: 2px black; /* Grosor y color del borde */
+
+    }
+
+.titulos{
+    color: rgb(39, 37, 39);
+    background-color: rgb(166, 169, 170);
+   
+    margin-left: 1px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.textos{  
+
+    
+    margin-left: 1px;
+    border: 4px solid rgb(15, 13, 13);
+}
+
+.body{
+    background-color: #464343;
+border: 10px solid rgb(17, 16, 17);
+padding: 5px;
+text-align: justify;
+}
+
+#fotoDePerfil{
+    position: relative;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 33rem;
+    top: -1rem;
+}
+img#logo,img#logo1,img#logo2,img#logo3,img#logo4 {
+    width: 40px;
+    margin: 15px;
+}
+/* footer */
+.row#footer{
+ background: rgb(196,189,187);
+ background: linear-gradient(356deg, rgba(196,189,187,0.7399334733893557) 15%, rgba(25,25,24,0.7903536414565826) 47%, rgba(182,171,166,0.7399334733893557) 84%);
+    margin-top:20px;
+}
+footer{
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px #999 ;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
